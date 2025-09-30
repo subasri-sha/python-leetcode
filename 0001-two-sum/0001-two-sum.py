@@ -12,10 +12,10 @@ class Solution(object):
         # Alternative code for better time complexity
         #  dic = {}  # initialise an empty dictionary
 
-        # for i, val in enumerate(nums):
-        #     if target - val in dic:
-        #         return [dic[target - val], i]
-        #     else:
-        #         dic[val] = i
+        # for i, val in enumerate(nums): # enumerate(nums) gives both index i and value val.
+        #     if target - val in dic:    # checks target - val in dic, if target - value in dict
+        #         return [dic[target - val], i]  # return the difference with its index i.e difference : i
+        #     else: 
+        #         dic[val] = i # if not it stores the value in dic
     
         
